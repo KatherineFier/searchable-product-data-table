@@ -4,6 +4,8 @@ import {ProductRow} from "../ProductRow/ProductRow";
 
 export const ProductTable = ({products, filterText, inStockOnly}) => {
 
+    //bug in below logic
+
     const rows =[]
     let lastCategory = null;
 
